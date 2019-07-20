@@ -10,6 +10,9 @@ The following libraries are used to implement the service:
 * mocha (https://mochajs.org/) to develop test cases for the service and execute them in serial with proper reporting
 * supertest (https://github.com/visionmedia/supertest/)  to test HTTP calls in node.js
 
+## Dockerizing the code
+Docker was used to build up the code,  it moves the code into an image or container: bind mounts and the Dockerfile COPY instruction.
+
 ## Testing tools 
 * postman (https://www.getpostman.com/) a tool to test the service
 
