@@ -89,7 +89,7 @@ Returns:
 ```js
 {
     "code": "ResourceNotFound",
-    "message": "/wsfsf does not exist"
+    "message": "/ does not exist"
 }
 ```
 ### Getting started
