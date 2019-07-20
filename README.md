@@ -1,4 +1,4 @@
-# Description
+# Rest Weather Api
 This is a REST based service to retrieve information about the weather in different cities. 
 The service is powered by node.js and used the data provided by openweathermap.org. 
 The list of available cities can be found in /data/city.list.json.
