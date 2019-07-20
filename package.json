@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Weather API",
+  "keywords": [
+    "restify",
+    "weatherapi"
+  ],
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test"
+  },
+  "author": "Ayoub Elmoujahid",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "mocha": "^6.2.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "dotenv": "^6.2.0",
+    "geo-distance": "^0.2.0",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "restify": "^6.3.4",
+    "restify-router": "^0.5.0"
+  }
+}

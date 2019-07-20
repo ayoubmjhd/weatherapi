@@ -93,13 +93,13 @@ Returns:
 }
 ```
 ### Getting started
-To Build and start the service open a terminal window and run:
+To Build and start the service :
 
-1. `docker-compose up --build`
+1. open a terminal window and run `docker-compose up --build`
 2. Use postman to test each scenario
 
 ### Unit tests
 There is a unit test case for each scenario.
 To run the tests open the terminal window and run:
 
-1. `docker exec -it weatherapi npm run test`
+* `docker exec -it weatherapi npm run test`

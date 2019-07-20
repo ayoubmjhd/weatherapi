@@ -1,0 +1,14 @@
+version: "2" 
+services:
+  weatherapi:
+    container_name: weatherapi
+    build: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./test:/test
+      - ./package.json:/package.json
+      - ./package-lock.json:/package-lock.json
+      - ./.gitignore:/.gitignore
+      - ./app.js:/app.js
+    
